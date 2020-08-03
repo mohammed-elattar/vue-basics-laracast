@@ -4,7 +4,7 @@
 /out-tsc
 
 # dependencies
-/node_modules
+/web/node_modules
 
 # profiling files
 chrome-profiler-events.json
@@ -28,22 +28,3 @@ speed-measure-plugin.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
-
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
-/tests/logs/**/*
-test-report.xml
-junit.xml
-build.log
-/badges
-
-# System Files
-.DS_Store
-Thumbs.db
