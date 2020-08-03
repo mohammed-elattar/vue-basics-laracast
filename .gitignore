@@ -1,0 +1,49 @@
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events.json
+speed-measure-plugin.json
+
+# IDEs and editors
+/.idea
+/.vscode
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sw[po]
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+/tests/logs/**/*
+test-report.xml
+junit.xml
+build.log
+/badges
+
+# System Files
+.DS_Store
+Thumbs.db
