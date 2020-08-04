@@ -66,12 +66,14 @@ services:
       - app-network
 
   app-vue:
-    command: yarn run dev
+#    command: yarn run dev
+    entrypoint: ['tail', '-f', '/dev/null']
     image: node:lts-alpine
     container_name: app-vue
     working_dir: /app
     volumes:
       - ./web/:/app
+      - ./web/node_modules:/app/node_modules:delegated
     expose:
       - 8080
     ports:

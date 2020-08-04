@@ -64,7 +64,7 @@ RUN yarn global add @vue/cli-init
 #RUN vue init webpack my-project
 
 # Gulp
-RUN yarn install -g gulp
+RUN yarn global add gulp
 
 # Add user for laravel application
 RUN groupadd -g 1000 www
